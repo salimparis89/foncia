@@ -12,12 +12,7 @@ before(function () {
 })
 
 describe(feature,
-  /* {
-     retries: {
-       runMode: 2,
-       openMode: 2,
-     }
-   },*/
+
   function () {
 
     it(feature , function () {
@@ -43,12 +38,6 @@ describe(feature,
 
            })
 
-  
-   // Cypress.Cookies.preserveOnce();
-   /*
-   Cypress.Cookies.defaults({
-    preserve: cookieName_Foncia
-  })*/
 
     //Navigate to the first website of the list
     cy.get(GooglePage.searchResultList).first().find(GooglePage.searchResultLink).click()
@@ -89,20 +78,6 @@ describe(feature,
     //Check the price of the filter
     cy.get(ResultPage.searchTitleArea).contains(this.data.title)
 
-   // cy.reload(true)
-
-   // cy.getCookies()
-
-//  cy.getCookie(cookieName_Foncia).should('have.property', 'value', cookieValue_Foncia)
-
-   //cy.getCookie(cookieName_Foncia).should('have.property', 'value', cookieValue_Foncia)
-
-   /*
-
-   cy.setCookie(cookieName_Foncia, cookieValue_Foncia)
-  cy.visit("https://fr.foncia.com/")
-  cy.getCookies()
-*/
     })
 
   })
