@@ -1,0 +1,27 @@
+{
+
+    "baseUrl": "https://foncia.fr",
+
+    "env": {
+        "something": "preprod",
+        "login": "",
+        "password": ""
+    
+    },
+
+
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+
+    "defaultCommandTimeout": 13000,
+    "execTimeout": 60000,
+    "taskTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 10000,
+    "responseTimeout": 30000
+
+
+
+}

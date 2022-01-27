@@ -1,0 +1,18 @@
+{   
+
+    "viewportWidth": 1280,
+    "viewportHeight": 1024,
+    "chromeWebSecurity": false,
+
+    "reporter": "cypress-mochawesome-reporter", 
+     "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "DailyReport-:Foncia"
+      },
+
+
+    "screenshot": false,
+
+     "video":false
+}
