@@ -17,12 +17,6 @@
     public firslocationResultArea = '#pr_id_1_list > li'
 
     public submitBtn = '.ng-dirty.search-bar-form [type="submit"]'
-
-    public fillInsertionName(name: string) {
-
-
-    }
-
  
 }
 
