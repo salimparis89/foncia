@@ -58,10 +58,10 @@ describe(feature,
     cy.get(Mainpage.propertyTypeResultCbox).click()
 
     //Type the price 
-    cy.get(Mainpage.priceTxt).type('1500')
+    cy.get(Mainpage.priceTxt).type(this.data.price)
 
     //Type the location
-    cy.get(Mainpage.locationTxt).type('Paris')
+    cy.get(Mainpage.locationTxt).type(this.data.location)
 
     //Select the first location
     cy.get(Mainpage.firslocationResultArea).first().click()
