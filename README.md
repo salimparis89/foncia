@@ -3,7 +3,7 @@ foncia practical test
 
 ## Script commands
 
-For a run on prod : yarn run:prod
+For a run on prod : yarn run:prod <br />
 To open cypress dashboard : yarn open:prod
 
 ## HTML Report
