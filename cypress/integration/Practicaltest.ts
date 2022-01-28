@@ -21,7 +21,7 @@ describe(feature,
 
     cy.mockCookie(this.data.cookiename, this.data.cookievalue)
 
-            // visit manage
+            // visit google page
             cy.visit(GooglePage.googleUrl)
 
             //Search for website
