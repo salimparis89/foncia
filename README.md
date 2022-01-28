@@ -8,4 +8,4 @@ To open cypress dashboard : **yarn open:prod**
 
 ## HTML Report
 
-Here is the path to the html report : "../foncia/cypress/report/index.html"
+Here is the path to the html report : **"../foncia/cypress/report/index.html"**
