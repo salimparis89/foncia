@@ -2,7 +2,7 @@ import GooglePage from "../pageObjects/googlepage";
 import Mainpage from "../pageObjects/Mainpage";
 import ResultPage from "../pageObjects/ResultPage";
 
-const feature = 'Manage - Delivery rules creation'
+const feature = 'Search for a rent'
 
 
 before(function () {
